@@ -1,0 +1,69 @@
+*{
+    background-color: black;
+    color: white;
+}
+@keyframes example {
+    0% {background-image: url('rishikesh1.jpg');}
+    25% {background-image: url('nainital1.jpeg');}
+    50% {background-image: url('haridwar.jpg');}
+    75% {background-image: url('jim2.jpeg');}
+    
+}
+.rishikesh{
+    background-image: url('rishikesh1.jpg');
+    width: 1500px;
+    height: 550px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example1 {
+    0% {background-image: url('darjeeling1.jpg');}
+    25% {background-image: url('darjeeling2.webp');}
+    50% {background-image: url('garjeeling3.webp');}
+    75% {background-image: url('darjeeling4.webp');}
+    
+}
+.Darjeeling{
+    background-image: url('darjeeling1.jpg');
+    width: 1500px;
+    height: 550px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example2 {
+    0% {background-image: url('laksh1.webp');}
+    25% {background-image: url('laksh2.webp');}
+    50% {background-image: url('laksh3.webp');}
+    75% {background-image: url('laksh4.webp');}
+    
+}
+.Lakshdweep{
+    background-image: url('laksh1.webp');
+    width: 1500px;
+    height: 550px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
